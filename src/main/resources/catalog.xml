@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog>
+    <category name="Films">
+        <subCategory name="Action">
+            <news>
+                <newsName>Новый фильм Сталлоне</newsName>
+                <provider>
+                    <author>Goga Kukhishvilli</author>
+                    <author>Billi Joel</author>
+                </provider>
+                <dateOfIssue>2018-09-05+03:00</dateOfIssue>
+                <newsBody> Огромный успех у нового фильма Сильвестра Сталлоне 'Скалолаз'! Поздравляем парня!!!!</newsBody>
+            </news>
+        </subCategory>
+    </category>
+</catalog>
