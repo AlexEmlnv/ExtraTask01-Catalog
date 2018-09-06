@@ -13,7 +13,6 @@ import javax.xml.bind.Unmarshaller;
 import by.htp.catalog.bean.Catalog;
 import by.htp.catalog.bean.NewsItem;
 import by.htp.catalog.dao.CatalogDaoService;
-import by.htp.catalog.dao.DaoException;
 
 public class CatalogDaoServiceImpl implements CatalogDaoService {
 	

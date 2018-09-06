@@ -13,9 +13,6 @@ public class NewsItem {
 	@XmlElement(required = true)
 	public String newsName;
 	
-//	@XmlElement(required = true)
-//	public Provider provider = new Provider();
-	
 	@XmlElementWrapper(name = "provider")
 	@XmlElement(name = "author", required = true)
 	public List<String> authors = new ArrayList<>();
@@ -42,15 +39,6 @@ public class NewsItem {
 	public void setAuthors(List<String> authors) {
 		this.authors = authors;
 	}
-	
-//	public Provider getProvider() {
-//		return provider;
-//	}
-//
-//	public void setProvider(Provider provider) {
-//		this.provider = provider;
-//	}
-	
 	
 	public Date getDateOfIssue() {
 		return dateOfIssue;

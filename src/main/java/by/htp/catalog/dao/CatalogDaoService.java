@@ -10,6 +10,4 @@ public interface CatalogDaoService {
 	
 	public List<NewsItem> FindNews(String str) throws DaoException;
 
-//    Catalog readCatalog() throws DaoException;
-//    void writeCatalog(Catalog catalog) throws DaoException;
 }
